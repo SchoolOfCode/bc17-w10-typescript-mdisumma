@@ -5,10 +5,22 @@ const container = document
     console.log(e);
 });
 const choices = ["rock", "paper", "scissors"];
+/**
+ * @param {number} totalScore
+ * @param {string} playerMove
+ * @param {string} computerMove
+ * @param {number} gameScore
+ */
 let totalScore = 0;
 let playerMove;
 let computerMove;
 let gameScore = 0;
+/**
+ * @param {string} player
+ * @param {string} app
+ * @param {number} score
+ * @param {number} total
+ */
 function getWinner(player, app, score, total) {
     let data = [];
     while (true) {
